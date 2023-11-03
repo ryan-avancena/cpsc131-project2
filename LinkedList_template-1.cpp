@@ -339,49 +339,6 @@ public:
     }
 };
 
-void testingDelete() {
-    Browser<double> b1;
-    b1.addNewTab("https://www.google.com","Google",23.45);
-    b1.addNewTab("https://www.youtube.com","YouTube",56);
-    b1.addNewTab("https://www.geeksforgeeks.com","GeeksForGeeks",45.78);
-    b1.addNewTab("https://chat.openai.com","ChatGPT",129);
-    b1.addNewTab("https://linkedin.com","LinkedIn",410);
-    b1.addNewTab("https://github.com","Github",110);
-    b1.addNewTab("https://kaggle.com","Kaggle",310);
-    b1.display();
-    // b1.closeCurrentTab(); 
-    // b1.display();
-    // b1.switchToPrevTab();
-    // b1.switchToPrevTab();
-    // b1.closeCurrentTab();
-    // b1.display();
-    // b1.switchToPrevTab();
-    // b1.switchToPrevTab();
-    // b1.switchToPrevTab();
-    // b1.closeCurrentTab(); 
-    // b1.display();
-    // b1.switchToNextTab();
-    b1.showCurrent();
-    b1.deleteTab();
-    b1.display();
-
-    b1.showCurrent();
-    b1.deleteTab();
-    b1.display();
-
-    b1.showCurrent();
-    b1.deleteTab();
-    b1.display();
-
-    b1.showCurrent();
-    b1.deleteTab();
-    b1.display();
-
-    b1.showCurrent();
-    b1.deleteTab();
-    b1.display();
-}
-
 int main(){
     Browser<double> b1;
     b1.addNewTab("https://www.google.com","Google",23.45);
